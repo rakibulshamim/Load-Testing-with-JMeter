@@ -1,15 +1,18 @@
 # Load-Testing-with-JMeter
+
 ## Prerequisites:
-1. install jdk 1.8
-2. set JMeter home in env variables
+1. Need to install jdk 1.8
+2. Set JMeter home in env variables
+
 
 ## How to run this file
+1. Clone the repo
+2. Run git bash or powershell or cmd in root(apache-jmeter-5.4.2\bin) folder
+3. Then type following command to perform load test and generate report $ log file:
 
-
-
-
-
-
+```
+jmeter -n -t Customers.jmx -l log.csv -e -o Reports
+```
 
 ## Report View
 
