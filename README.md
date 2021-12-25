@@ -5,7 +5,7 @@
 2. Set JMeter home in environment variables
 
 
-## How to run this file
+## How to run this file:
 1. Clone jmx file to root(apache-jmeter-5.4.2\bin) folder
 2. Run git bash or powershell or cmd in the folder
 3. Then type following command to perform load test and generate report & log file:
